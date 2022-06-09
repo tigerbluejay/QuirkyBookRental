@@ -20,9 +20,6 @@
                 </div>
                 <div>
                     <input type="submit" value="Create" class="btn btn-sm btn-success" />
-                    <a type="button" class="btn btn-primary btn-sm" href="@Url.Action("Index")">
-                        <span class="glyphicon glyphicon-list"></span>
-                        <span>Back to List</span>
-                    </a>
+                    @Html.Partial("_BackToListButtonPartial")
                 </div>
             }
