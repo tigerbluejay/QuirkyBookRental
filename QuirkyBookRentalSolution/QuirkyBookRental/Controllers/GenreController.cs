@@ -1,6 +1,7 @@
 ﻿using QuirkyBookRental.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -57,6 +58,64 @@ namespace QuirkyBookRental.Controllers
                 return HttpNotFound();
             }
             return View(genre);
+        }
+
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            Genre genre = db.Genres.Find(id);
+            if (genre == null)
+            {
+                return HttpNotFound();
+            }
+            return View(genre);
+        }
+
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            Genre genre = db.Genres.Find(id);
+            if (genre == null)
+            {
+                return HttpNotFound();
+            }
+            return View(genre);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Genre genre)
+        {
+            if (ModelState.IsValid)
+            {
+                // update only one column
+                //var GenreInDb = db.Genres.FirstOrDefault(g => g.Id.Equals(genre.Id));
+                //GenreInDb.Name = genre.Name
+
+                // update all the columns in the db
+                db.Entry(genre).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id)
+        {
+            Genre genre = db.Genres.Find(id);
+            db.Genres.Remove(genre);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
