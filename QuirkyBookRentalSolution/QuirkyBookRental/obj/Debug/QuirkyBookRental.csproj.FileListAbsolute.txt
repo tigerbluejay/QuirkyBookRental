@@ -114,3 +114,4 @@ C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRe
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.pdb
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.AddBookandGenreClass.resources
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.csproj.GenerateResource.cache
+C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.AddPublisherToBookModel.resources
