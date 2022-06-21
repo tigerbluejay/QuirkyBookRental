@@ -115,3 +115,6 @@ C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRe
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.AddBookandGenreClass.resources
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.csproj.GenerateResource.cache
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.AddPublisherToBookModel.resources
+C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.MembershipTypeMappingtoDB.resources
+C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.SeedingtoMembershipType.resources
+C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.AddFieldsToMembershipTable.resources
