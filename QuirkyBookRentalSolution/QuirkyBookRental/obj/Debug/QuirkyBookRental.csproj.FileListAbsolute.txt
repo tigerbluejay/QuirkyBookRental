@@ -118,3 +118,5 @@ C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRe
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.MembershipTypeMappingtoDB.resources
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.SeedingtoMembershipType.resources
 C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.AddFieldsToMembershipTable.resources
+C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.unknownChanges.resources
+C:\Users\josem\source\QuirkyBookRental-MVC\QuirkyBookRentalSolution\QuirkyBookRental\obj\Debug\QuirkyBookRental.Migrations.unknownDetailsToGetItToWork.resources
